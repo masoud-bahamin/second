@@ -1,0 +1,272 @@
+html{
+    margin: 0;
+    font-size: 16px;
+    padding: 0;
+
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(227, 233, 227);
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    margin: 1rem 0;
+}
+
+.logo1{
+    display: inline-block;
+    margin-left: 4rem;
+}
+
+@media (max-width:450px){
+    .logo1{
+        width: 30%;
+        padding-left: 1rem;
+    }
+
+}
+
+header h1{
+    display: inline-block;
+    font-size: 1.4rem;
+    color: #E67E22;
+    margin-left: .7rem;
+    vertical-align: top;
+}
+
+header ul{
+    display: inline-block;
+    margin-left: 18rem;
+    
+}
+@media (max-width:450px){
+    header ul{
+        margin-right: 1rem;
+    }
+}
+
+header ul ol{
+    display: inline;
+    
+}
+
+header ul ol a{
+    text-decoration: none;
+    color: black;
+    margin: 0 .5rem;
+}
+@media (max-width:450px){
+    header ul ol a{
+        margin: 1rem 0;
+        padding: 3rem 0;
+        
+    }
+}
+
+.get1{
+    border: 1px solid #E67E22;
+    background-color: #E67E22;
+    color: white;
+    padding: .5rem 1rem;
+}
+
+header a:focus{
+    color: #E67E22;
+}
+.rast{
+    width: 50%;
+    height: 35rem;
+    background: url(ab.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: right;
+}
+@media(max-width:450px){
+    .rast{
+        width: 94%;
+        float: none;
+    }
+}
+
+.chap{
+    padding: 1rem 4rem;
+    width: 98%;
+    height: 35rem;
+}
+
+@media(max-width:450px){
+    .chap{
+        width: calc(100% - 2rem);
+        padding: 1rem 1rem;
+        text-align: center;
+        height: 48rem;
+    }
+}
+
+.chap h2{
+    margin-top: 5rem;
+    font-size: 4rem;
+}
+
+.s1{
+    color: #E67E22;
+    border-bottom:4px solid #E67E22;
+    
+}
+.p1{
+    font-size: 1.2rem;
+    color: gray;
+    font-weight: bold;
+}
+
+#select{
+    border: none;
+    margin: .7rem;
+}
+/* @media(max-width:450px) {
+    #select , #location{
+        display: inline-block;
+        width: 49%;
+    }
+} */
+
+#location{
+    border: none;
+    padding: .7rem;
+}
+
+.chap label{
+    font-size: 1.3rem;
+    padding: .7rem;
+}
+
+.s2{
+    background-color: white;
+    border-radius: 8px;
+    padding: 1.4rem 1.8rem;
+    margin-top: 5rem;
+}
+.joda{
+    font-size: 2rem;
+    color: rgba(128, 128, 128, 0.301);
+    display: inline;
+}
+
+.btn{
+    color: white;
+    font-size: 1.3rem;
+    padding: .5rem 1rem;
+    background-color: #E67E22;
+    outline: none;
+    border: 1px solid #fc7703;
+    margin-left: 1rem;
+    /* transition: all .5s ease-in-out ; */
+    /* animation: btnh 3s ease-in-out .5s ; */
+    
+}
+.btn a{
+    color: beige;
+    text-decoration: none;
+}
+
+.btn:hover{
+    
+    animation: btnh 4s ease-in-out .1s alternate;
+}
+@keyframes btnh{
+    from{ background-color: #E67E22;
+        transform: rotate(0deg) ;
+        
+
+
+    }
+
+    25%{background-color: rgb(20, 104, 100);
+        transform:rotate (70deg);
+
+    }
+
+    75%{
+        background-color: rgb(250, 17, 172);
+        transform: rotate(270deg);
+    }
+    to{ background-color: rgb(235, 197, 147);
+        transform: rotate(360deg);
+        
+
+    }
+}
+
+
+
+
+@media(max-width:450px){
+    .btn{
+        width: 98%;
+        text-align: center;
+        display: block;
+        margin: 2rem;
+    }
+}
+
+.vasat{
+    padding-left: 4rem ;
+    background-color: honeydew;
+}
+
+.h22{
+    display: inline-block;
+    width: calc(25% - 3rem);
+    vertical-align: top;
+    font-size: 2.8rem;
+    color: rgb(65, 62, 62);
+    padding-right: 6rem;
+    
+}
+@media(max-width:450px){
+    .h22{
+        width: 98%;
+        text-align: center;
+        margin-top: 1rem;
+        padding-right: 0;
+        display: block;
+        margin-left: 0;
+    }
+}
+.div2{
+    width: calc(25% - 3rem);
+    display: inline-block;
+    text-align: left;
+    
+}
+@media(max-width:450px){
+    .div2{
+        width: 98%;
+        text-align: center;
+    }
+}
+
+.div2 img{
+    width:1.7rem ;
+    height:1.7rem ;
+
+}
+
+.vasat h4{
+    font-size: 1.7rem;
+    color: rgb(56, 55, 55);
+    
+}
+.vasat p{
+    color: grey;
+    padding-right: 3rem;
+    
+}
+
+.div5{
+    background-color: honeydew;
+    padding-top: 4rem;
+}
